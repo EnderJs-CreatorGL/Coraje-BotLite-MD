@@ -11,7 +11,7 @@ let name2 = conn.getName(m.sender)
   let perfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
   let bio = 0, fechaBio
  // let who2 = m.isGroup ? _.get(m, "mentionedJid[0]", m.quoted?.sender || m.sender) : m.sender
-  let sinDefinir = '😿 Es privada'
+  let sinDefinir = '🐶 Es privada'
   let biografia = await conn.fetchStatus(m.sender).catch(() => null)
   if (!biografia || !biografia[0] || biografia[0].status === null) {
   bio = sinDefinir
@@ -43,11 +43,11 @@ let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 20)
 m.react('📩') 
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
-「🐉」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
+「🐕」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
 「⭐」𝗘𝗱𝗮𝗱: ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-• 15 dragones 🐉
+• 15 Perrunos 🐶
 • 5 Coins 🪙
 • 245 Experiencia ✨
 • 12 Tokens ⚜️
