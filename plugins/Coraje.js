@@ -44,7 +44,7 @@ await conn.sendMessage(chatId, {video: { url: json.video.watermark }, caption: "
 } else if (respuestaTXT === '3') {
 await conn.sendMessage(chatId, {audio: { url: json.video.watermark }, caption: "Video Calidad Alta",}, { quoted: mensajeRecibido })
 } else {
-await conn.sendMessage(chatId, "✿ Solo puedes responder con 1,2,3", m)
+await conn.sendMessage(chatId, " Solo puedes responder con 1,2,3", m)
 }}})
       
 } catch (error) {
