@@ -32,7 +32,7 @@ global.vs = '3.0.0'
 global.languaje = 'Español'
 global.nameqr = 'Coraje-BotLite-MD'
 global.sessions = 'Corajesession'
-global.jadi = 'GokuJadiBot'
+global.jadi = 'CorajeJadiBot'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
