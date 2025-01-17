@@ -30,12 +30,12 @@ let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ib
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 const vid = ['https://qu.ax/Bjirw.mp4', 'https://qu.ax/Bjirw.mp4', 'https://qu.ax/Bjirw.mp4']
 
-let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝓚𝓪𝓴𝓪𝓻𝓸𝓽𝓸-𝓑𝓸𝓽-𝓜𝓓 𓏲꯭֟፝੭ ꯭  ꯭𔓕
+let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯 𓏲꯭֟፝੭ ꯭  ꯭𔓕
 
-🐲 ¡𝐇𝐨𝐥𝐚! 𝐂𝐨𝐦𝐨 𝐄𝐬𝐭𝐚𝐬 𝐄𝐥 𝐃𝐢𝐚 𝐃𝐞 𝐇𝐨𝐲 *${taguser}* 𝐒𝐨𝐲 𝐤𝐚𝐤𝐚𝐫𝐨𝐭𝐨𝐁𝐨𝐭 ${saludo}. 
+🐕 ¡𝐇𝐨𝐥𝐚! Humano 𝐂𝐨𝐦𝐨 𝐄𝐬𝐭𝐚𝐬 𝐄𝐥 𝐃𝐢𝐚 𝐃𝐞 𝐇𝐨𝐲 *${taguser}* 𝐒𝐨𝐲 Coraje ${saludo}. 
 
 ┏━━⪩「 𝐈𝐍𝐅𝐎 𝐂𝐑𝐄𝐀𝐃𝐎𝐑ᚐ 」⪨
-┃❂ ⧼👑⧽ *Creador:* ĹєǤ𝒆𝐧𝐃
+┃❂ ⧼👑⧽ *Creador:* 𝑲𝒆𝒗𝒊𝒏𝑱𝒔
 ┃❂ ⧼🔱⧽ *Modo:* Publico
 ┃❂ ⧼🌠⧽ *Baileys:* Multi Device
 ┃❂ ⧼🤖⧽ *Bot:* ${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}
@@ -46,7 +46,7 @@ let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝓚𝓪𝓴𝓪𝓻𝓸𝓽𝓸-
 ‎┏━━⪩「 𝐈𝐍𝐅𝐎 𝐃𝐄 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 」⪨
 ┃❂ ⧼👤⧽ *Cliente:* ${name}
 ┃❂ ⧼✨⧽ *Exp:* ${exp}
-┃❂ ⧼🐉⧽ *Dragones:* ${dragones}
+┃❂ ⧼🐶⧽ *Perrunos:* ${perrunos}
 ┃❂ ⧼🌟⧽ *Nivel:* ${level}
 ┃❂ ⧼⚜️⧽ *Rango:* ${role}
 ┗━━━━━━━━━━━━━━━━━⪩
@@ -82,7 +82,6 @@ let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝓚𝓪𝓴𝓪𝓻𝓸𝓽𝓸-
 ┃✿ .solicitud *<mensaje>*
 ┃✿ .sug *<mensaje>*
 ┃✿ .horario
-┃✿ .skyplus
 ┃✿ .infobot
 ┃✿ .ping
 ┃✿ .reportar
@@ -492,9 +491,9 @@ let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝓚𝓪𝓴𝓪𝓻𝓸𝓽𝓸-
 ┃🜲 >
 ┃🜲 =>
 ┗━━━━━━━━━━━━━━━━━⪨
-> © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆`.trim()
+> © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ☆꧁༒𝑲𝒆𝒗𝒊𝒏𝑱𝒔༒꧂☆`.trim()
 
-await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '🐉 ꙰,𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨𝐁𝐨𝐭', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
+await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '🐕 ꙰,Coraje𝐁𝐨𝐭', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
 await m.react(emojis)    
 
