@@ -100,7 +100,7 @@ global.comunidad1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Co
 global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal Oficial
 global.channel2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Canal test
 global.yt = 'https://youtube.com/@kakaroto-bot?si=dRYFi-dAw8H_mgGI' //Canal De Youtube
-global.md = 'https://github.com/Diomar-s/Kakaroto-Bot-MD' //Github Oficial
+global.md = 'https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD' //Github Oficial
 global.correo = 'kevincordoba223322@gmail.com'
 global.cn ='https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t';
 
