@@ -48,8 +48,8 @@ global.colab2 = 'IvanMods'
 global.colab3 = 'Familia Addams'
 
 //Ids channel
-global.idchannel = '120363323286489957@newsletter'
-global.canalIdM = ["120363323286489957@newsletter", "120363323286489957@newsletter"]
+global.idchannel = '120363372222484415@newsletter'
+global.canalIdM = ["120363372222484415@newsletter", "120363372222484415@newsletter"]
 global.canalNombreM = ["𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯҉ᚐ", "🌠 Luminary's | Web Hosting 🌌"]
 global.channelRD = await getRandomChannel()
 
@@ -72,11 +72,11 @@ global.waittt = '🕒 *𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝙊𝙍𝙁�
 global.waitttt = '🕒 *𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝙊𝙍𝙁𝘼...*';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'  
-let canal2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-var git = 'https://github.com/Diomar-s' 
+var canal = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U'  
+let canal2 = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b'
+var git = 'https://github.com/Kevin22Mza' 
 var youtube = '' 
-var github = 'https://github.com/Diomar-s/Kakaroto-Bot-MD.git' 
+var github = 'https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD' 
 let correo =  'kevincordoba223322@gmail.com'
 
 global.redes = [canal, canal2, git, youtube, github, correo].getRandom()
