@@ -1,18 +1,13 @@
-<h1 align="center">KAKAROTO-BOT-MD 💨</h1>
+<h1 align="center">Coraje-BotLite-MD🌨</h1>
  <p align="center">🌟 déjanos tu super estrella</p>
 </p>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
-![Kakaroto](https://i.ibb.co/4NWqF0m/file.jpg)
 
 > ⚜️ Versión 3.0.0
 
 <div align="center">
  
-[![Dueño](https://img.shields.io/badge/Dueño-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573142051545)
-[![Soporte](https://img.shields.io/badge/soporte-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/584148256527)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Kakaroto-bot)
-</div>
+[![Dueño](https://img.shields.io/badge/Dueño-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5492612721386)
+[![Soporte](https://img.shields.io/badge/soporte-00802f?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/50558124470)
 
 ---
 
@@ -30,12 +25,12 @@
 ### **`💭 Contáctanos`**
 
 <a
-href="https://wa.me/584148256527?text="><img src="https://qu.ax/ugHh.jpg" height="125px"></a>
+href="https://wa.me/50558124470?text="><img src="https://qu.ax/ugHh.jpg" height="125px"></a>
 
 <details>
 <summary><b> 💣 Contáctos</b></summary>
 
-* https://wa.me/584148256527
+* https://wa.me/5492612721386
 
 ---
 
@@ -159,11 +154,11 @@ href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="
 
 ----- 
 #### **`⏏️ ACTIVAR EN KOYEB`**
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Diomar-s/Kakaroto-Bot-MD&branch=master&name=kakarotobot-md)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/EnderJs-CreatorGL/Coraje-BotLite-MD&branch=master&name=Coraje-BotLite-MD)
 
 ------------------
 #### **`☁️ ACTIVAR EN RENDER`**
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FDiomar-s%2FKakaroto-Bot-MD)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnderJs-CreatorGLs%2FCoraje-BotLite-MD)
 
 
 
@@ -180,11 +175,6 @@ href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="
 | WhatsApp | Grupo Ofc | [¡Click aquí!](https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW) |
  
 
-### **`🔱 Propietario`**
-<a
-href="https://github.com/Diomar-s"><img src="https://qu.ax/AcSK.jpg" width="130" height="130" alt="Legendary"/></a>
-
-</a> 
 
 
 
