@@ -1,5 +1,5 @@
 {
-"name": "Kakaroto-Bot-MD",
+"name": "Coraje-BotLite-MD",
 "version": "3.0.0",
 "description": "Simple WhatsApp Bot Multi Device",
 "main": "index.js",
@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Diomar-s/Kakaroto-Bot-MD",
+"homepage": "https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD",
 "author": {
 "name": "Legendary"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Diomar-s/Kakaroto-Bot-MD.git"
+"url": "git+https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD"
 },
 "bugs": {
-"url": "https://github.com/Diomar-s/Kakaroto-Bot-MD/issues"
+"url": "https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
