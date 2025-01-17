@@ -15,26 +15,23 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-  ['5491166401905', 'Legen-Soporte', true],
-  ['584148256527', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
-  ['584120346669', 'ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜', true],
-  ['51923300039'],
-  ['15045475386'],
-  ['50557865603']
+  ['5492612721386', 'KEvin creador', true],
+  ['50558124470', 'Zahpkiel☆', true],
+  ['5493834258985']
 ];
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['584148256527', '5218711426787', '584120346669', '', '']
+global.mods = ['50558124470', '5493834258985', '5492612721386', '', '']
 
-global.suittag = ['584148256527']
+global.suittag = ['5492612721386']
 global.prems = []
  
 global.libreria = 'Baileys'
 global.baileys = 'V 6.7.8'
 global.vs = '3.0.0'
 global.languaje = 'Español'
-global.nameqr = 'Kakaroto-Bot-MD'
-global.sessions = 'GokuSession'
+global.nameqr = 'Coraje-BotLite-MD'
+global.sessions = 'Corajesession'
 global.jadi = 'GokuJadiBot'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
