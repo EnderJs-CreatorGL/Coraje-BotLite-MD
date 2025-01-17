@@ -43,9 +43,9 @@ global.asistencia = 'Wa.me/5492612721386'
 global.namechannel = '𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯'
 global.namegrupo = '𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯ᚐ҉'
 global.namecomu = '𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯ᚐ҉'
-global.colab1 = 'destroy'
-global.colab2 = 'Niño Piña'
-global.colab3 = 'Dv daniel'
+global.colab1 = 'EnderJs-CreatorGL'
+global.colab2 = 'IvanMods'
+global.colab3 = 'Familia Addams'
 
 //Ids channel
 global.idchannel = '120363323286489957@newsletter'
