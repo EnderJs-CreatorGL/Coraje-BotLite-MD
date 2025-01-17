@@ -1,10 +1,10 @@
-//Codigo hecho por ivan 
+//Codigo hecho por Jose XRL Y Ivan 
 
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     // Comprobamos si no se ha pasado el código de país
-    if (!args[0]) return conn.reply(m.chat, `🚩 Ingrese el código de país. Ejemplo:\n> *${usedPrefix + command}* +58`, m, rcanal);
+    if (!args[0]) return conn.reply(m.chat, `🚩 Ingrese el código de país. Ejemplo:\n> *${usedPrefix + command}* +51 o +595`, m, rcanal);
 
     await m.react('🕓');
     try {
