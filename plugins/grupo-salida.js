@@ -11,7 +11,7 @@ setInterval(() => {
 
         conn.groupLeave(group);
         delete global.db.data.groupRents[group];
-        conn.reply(user, `⚠️ Tu token ha expirado y el bot ha salido del grupo ${group}.`, null);
+        conn.reply(user, `🐶 *Adios a todos idotas, el Bot se va! ${group}.`, null);
       }
     });
   }
