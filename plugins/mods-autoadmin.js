@@ -1,9 +1,9 @@
 const handler = async (m, {conn, isAdmin, groupMetadata }) => {
-  if (isAdmin) return m.reply('✨ _*¡MI SR.AMO 😄 YA TE DI MI POWER 💪, APROVECHALO AL MAX!*_');
+  if (isAdmin) return m.reply('*"¡No importa cuán grande sea el miedo, siempre lucho por proteger a mi familia, ayúdame a protegerlos!"* 🐾');
   try {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
   await m.react(done)
-   m.reply('✨ _*¡MI SR.AMO YA TE DI MI POWER 💪, APROVECHALO AL MAX!*_');
+   m.reply('*"¡No importa cuán grande sea el miedo, siempre lucho por proteger a mi familia, ayúdame a protegerlos!"* 🐾');
     let nn = conn.getName(m.sender);
 // conn.groupParticipantsUpdate(m.chat, [m.sender], 'demote');
   // await m.react(done)
