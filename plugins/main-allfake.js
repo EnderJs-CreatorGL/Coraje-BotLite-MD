@@ -37,12 +37,12 @@ let user = global.db.data.users[who]
 let pushname = m.pushName || 'Sin nombre'
 
 //creador y otros
-global.creador = 'Wa.me/584148256527'
+global.creador = 'Wa.me/5492612721386'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/584148256527'
-global.namechannel = '𝙏𝙀𝘼𝙈 | 𝗠𝗨𝗡𝗗𝗢 𝗔𝗡𝗜𝗠𝗘'
-global.namegrupo = '𝗧𝗘𝗔𝗠 | 𝗠𝗨𝗡𝗗𝗢 𝗔𝗡𝗜𝗠𝗘ᚐ҉'
-global.namecomu = '𝗧𝗘𝗔𝗠 | 𝗠𝗨𝗡𝗗𝗢 𝗔𝗡𝗜𝗠𝗘ᚐ҉'
+global.asistencia = 'Wa.me/5492612721386'
+global.namechannel = '𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯'
+global.namegrupo = '𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯ᚐ҉'
+global.namecomu = '𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯ᚐ҉'
 global.colab1 = 'destroy'
 global.colab2 = 'Niño Piña'
 global.colab3 = 'Dv daniel'
@@ -50,7 +50,7 @@ global.colab3 = 'Dv daniel'
 //Ids channel
 global.idchannel = '120363323286489957@newsletter'
 global.canalIdM = ["120363323286489957@newsletter", "120363323286489957@newsletter"]
-global.canalNombreM = ["𝙏𝙀𝘼𝙈 | 𝙈𝙐𝙉𝘿𝙊 𝘼𝙉𝙄𝙈𝙀҉ᚐ", "𝐌𝐚𝐬𝐡𝐚 𝐇𝐨𝐬𝐭 🎄 ℍ𝕠𝕤𝕥𝕚𝕟𝕘"]
+global.canalNombreM = ["𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯҉ᚐ", "🌠 Luminary's | Web Hosting 🌌"]
 global.channelRD = await getRandomChannel()
 
 //Reacciones De Comandos.!
@@ -59,10 +59,10 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado del bot
-global.emoji = '🐉'
-global.emoji2 = '💨'
-global.emoji3 = '💫'
-global.emoji4 = '💥'
+global.emoji = '🐕'
+global.emoji2 = '🐶'
+global.emoji3 = '🐾'
+global.emoji4 = '🌟'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
@@ -75,9 +75,9 @@ global.waitttt = '🕒 *𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝙊𝙍𝙁�
 var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'  
 let canal2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 var git = 'https://github.com/Diomar-s' 
-var youtube = 'https://youtube.com/@kakaroto-bot?si=QMJZfniTLCm9q1Iu' 
+var youtube = '' 
 var github = 'https://github.com/Diomar-s/Kakaroto-Bot-MD.git' 
-let correo =  'darel0954@gmail.com'
+let correo =  'kevincordoba223322@gmail.com'
 
 global.redes = [canal, canal2, git, youtube, github, correo].getRandom()
 
@@ -119,7 +119,7 @@ global.icono = [
 "https://qu.ax/VKiFs.jpg"
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '𝗞𝗮𝗸𝗮𝗿𝗼𝘁𝗼 | 𝗠𝘂𝗻𝗱𝗼 𝗮𝗻𝗶𝗺𝗲ᚐ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯ᚐ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
 
