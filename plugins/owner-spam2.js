@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     return m.reply('*🙌 Proporcione un enlace válido del grupo.*');
   }
   if (isNaN(count) || count <= 0) {
-    return m.reply('*🐉 Especifique una cantidad válida de mensajes (mayor a 0).*');
+    return m.reply('*🐕 Especifique una cantidad válida de mensajes (mayor a 0).*');
   }
 
   try {
