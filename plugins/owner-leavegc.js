@@ -3,7 +3,7 @@ let id = text ? text : m.chat
 let chat = global.db.data.chats[m.chat]
 chat.welcome = false
 await conn.reply(id, `🐕 
-*"Aunque me voy, siempre estaré ahí, en cada rincón oscuro, luchando por lo que amo... porque el coraje no se mide por la ausencia del miedo, sino por lo que haces a pesar de él."* 🐾✨
+**¡¿De verdad esperan que enfrente esto?! ¡Que se vayan todos al carajo! Yo no nací para esto, ¡me largo antes de que esa cosa me atrape!"* 🐾💥
 `) 
 await conn.groupLeave(id)
 try {  
