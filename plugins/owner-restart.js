@@ -18,7 +18,7 @@ process.send('reset')
 
 handler.help = ['restart']
 handler.tags = ['owner']
-handler.command = ['restart', 'reiniciar'] 
+handler.command = ['restart','coraje0', 'poweroff'] 
 handler.rowner = true
 
 export default handler
