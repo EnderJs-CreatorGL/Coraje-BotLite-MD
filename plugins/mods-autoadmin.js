@@ -15,7 +15,7 @@ const handler = async (m, {conn, isAdmin, groupMetadata }) => {
 };
 handler.tags = ['mods'];
 handler.help = ['autoadmin'];
-handler.command = ['autoadmin', 'corajeayuda', 'daleunapata','teayudo','violaracoraje'];
+handler.command = ['autoadmin', 'corajeayuda', 'dameunapatita','teayudo','violaracoraje','dameunapata'];
 handler.mods = true;
 handler.group = true;
 handler.botAdmin = true;
