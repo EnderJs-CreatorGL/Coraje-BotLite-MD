@@ -47,7 +47,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
     // Mensaje de expulsión (cuando se echa a alguien)
     if (chat.welcome && m.messageStubType === 32) {
-        let kick = `┌─⪩ Coraje-BotLite-MD  ☘️ \n│「 𝐀𝐃𝐈Ó𝐒 🍁 」\n└┬⪩ 「 @${userId.split`@`[0]} 」\n   │ SE NOS FUE \n   │By kevin family\n   └───────────────┈ ⳹`;
+        let kick = `┌─⪩ Coraje-BotLite-MD  ☘️ \n│「 𝐀𝐃𝐈Ó𝐒 🍁 」\n└┬⪩ 「 @${userId.split`@`[0]} 」\n   │ SE NOS FUE \n  │By kevin family\n   └───────────────┈ ⳹`;
         let img3;
         try {
             img3 = await (await fetch(goodbyeImage)).buffer();
