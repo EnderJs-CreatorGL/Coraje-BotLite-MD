@@ -31,7 +31,7 @@ await conn.reply(m.chat, '✨ *La carpeta escrita esta vacía*',  m, rcanal, )
 } else {
 m.react(done)
 await conn.reply(m.chat, `🦴 *Ejcutado ${filesDeleted} archivos fueron borrados de Coraje-BotLite-MD,excepto las creds.json*`,  m, rcanal, )
-conn.reply(m.chat, `🐕 *¡Hola! Soy Coraje-BotLite-MD ¿logras leerme?*`, m, rcanal, )
+conn.reply(m.chat, `🐕 *¡Hola! Soy Coraje-BotLite-MD ¿Logras Leerme?*`, m, rcanal, )
 
 }
 } catch (err) {
