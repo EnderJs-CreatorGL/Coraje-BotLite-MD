@@ -6,9 +6,9 @@ import path from 'path'
 var handler = async (m, { conn, usedPrefix }) => {
 
 if (global.conn.user.jid !== conn.user.jid) {
-return conn.reply(m.chat, '🐕 *Utiliza este comando directamente en el número principal del Bot*', m, rcanal, )
+return conn.reply(m.chat, '🌹 *Ejcuta el comando en el bot manager*', m, rcanal, )
 }
-await conn.reply(m.chat, '🐶 *Iniciando proceso de eliminación de todos los archivos de sesión, excepto el archivo creds.json...*', m, rcanal, )
+await conn.reply(m.chat, '🌳*Estoy eliminando los archivos, Menos las credenciales.json...*', m, rcanal, )
 m.react(rwait)
 
 let sessionPath = `./${sessions}/`
@@ -16,7 +16,7 @@ let sessionPath = `./${sessions}/`
 try {
 
 if (!existsSync(sessionPath)) {
-return await conn.reply(m.chat, '✨ *La carpeta está vacía*', m, rcanal, )
+return await conn.reply(m.chat, '✨ *La carpeta  escrita está vacía*', m, rcanal, )
 }
 let files = await fs.readdir(sessionPath)
 let filesDeleted = 0
@@ -27,11 +27,11 @@ filesDeleted++;
 }
 }
 if (filesDeleted === 0) {
-await conn.reply(m.chat, '✨ *La carpeta esta vacía*',  m, rcanal, )
+await conn.reply(m.chat, '✨ *La carpeta escrita esta vacía*',  m, rcanal, )
 } else {
 m.react(done)
-await conn.reply(m.chat, `🐕 *Se eliminaron ${filesDeleted} archivos de sesión, excepto el archivo creds.json*`,  m, rcanal, )
-conn.reply(m.chat, `🐾 *¡Hola! Soy Coraje ¿logras verme?*`, m, rcanal, )
+await conn.reply(m.chat, `🌳 *Ejcutado${filesDeleted} fueron borrados de Coraje-BotLite-MD,excepto las creds.json*`,  m, rcanal, )
+conn.reply(m.chat, `🌲 *¡Hola! soy coraje-Bot ¿logras leerme?*`, m, rcanal, )
 
 }
 } catch (err) {
@@ -42,7 +42,7 @@ await conn.reply(m.chat, '⚙️ *Ocurrió un fallo*',  m, rcanal, )
 }
 handler.help = ['dsowner']
 handler.tags = ['owner']
-handler.command = ['delai', 'delyuki', 'dsowner', 'clearallsession']
+handler.command = ['delai', 'delcoraje', 'dsowner', 'corajedel']
 
 handler.rowner = true
 
