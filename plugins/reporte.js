@@ -1,6 +1,6 @@
 //Código elaborado por: https://github.com/elrebelde21 
 
-const OWNER1 = "5214774444444@s.whatsapp.net";
+const OWNER1 = "https://chat.whatsapp.com/CT3QxoAf7ihCdp3BmpPKzx";
 const ACTIVE_CONVERSATIONS = {};
 
 let handler = async (m, { conn, text, command }) => {
