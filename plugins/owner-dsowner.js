@@ -8,7 +8,7 @@ var handler = async (m, { conn, usedPrefix }) => {
 if (global.conn.user.jid !== conn.user.jid) {
 return conn.reply(m.chat, '🌹 *Ejcuta el comando en el bot manager*', m, rcanal, )
 }
-await conn.reply(m.chat, '🌳*Estoy eliminando los archivos, Menos las credenciales.json...*', m, rcanal, )
+await conn.reply(m.chat, '🌳 *Estoy eliminando los archivos, Menos las credenciales.json*', m, rcanal, )
 m.react(rwait)
 
 let sessionPath = `./${sessions}/`
@@ -30,8 +30,8 @@ if (filesDeleted === 0) {
 await conn.reply(m.chat, '✨ *La carpeta escrita esta vacía*',  m, rcanal, )
 } else {
 m.react(done)
-await conn.reply(m.chat, `🌳 *Ejcutado${filesDeleted} fueron borrados de Coraje-BotLite-MD,excepto las creds.json*`,  m, rcanal, )
-conn.reply(m.chat, `🌲 *¡Hola! soy coraje-Bot ¿logras leerme?*`, m, rcanal, )
+await conn.reply(m.chat, `🌳 *Ejcutado ${filesDeleted} archivos fueron borrados de Coraje-BotLite-MD,excepto las creds.json*`,  m, rcanal, )
+conn.reply(m.chat, `🌲 *¡Hola! soy coraje-BotLite-MD ¿logras leerme?*`, m, rcanal, )
 
 }
 } catch (err) {
