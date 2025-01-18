@@ -40,7 +40,7 @@ global.jadi = 'CorajeJadiBot'
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
 global.packname = `𝑪𝒐𝒓𝒂𝒋𝒆-𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫 🐕`
-global.author = `♾━━━━━━━━\n⇝͟͞ ۵̤͟𝑪𝒐𝒓𝒂𝒋𝒆-𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫♡̵̑ ͟͞ ⋆\n⇝ ۵-̅ĹєǤ𝒆𝐧𝐃-͞ˍ\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢𝑪𝒐𝒓𝒂𝒋𝒆-𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫𓆪͟͞ `;
+global.author = `♾━━━━━━━━\n⇝͟͞ ۵̤͟𝑪𝒐𝒓𝒂𝒋𝒆-𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫♡̵̑ ͟͞ ⋆\n⇝ ۵-̅Ҡҽѵìղلʂ-͞ˍ\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢𝑪𝒐𝒓𝒂𝒋𝒆-𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫𓆪͟͞ `;
 global.wm = 'ৎ୭࠭͢𝑪𝒐𝒓𝒂𝒋𝒆-𝑩𝒐𝒕𝑳𝒊𝒕𝒆-𝑴𝑫𓆪͟͞ ';
 global.titulowm = '͟͞ ৎ୭࠭͢𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯𓆪 ͟͞';
 global.titulowm2 = `͟͞ ৎ୭࠭͢𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯𓆪 ͟͞`
