@@ -8,7 +8,7 @@ let senderName = conn.getName(senderId)
 let tiempo = 5 * 60
 if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempo * 1000) {
 let tiempo2 = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempo * 1000 - Date.now()) / 1000))
-m.reply(`🐉 Ya Te Has Postituido Recientemente, Espera ⏱️ *${tiempo2}* Para Volver A Las Calles Y Evitar Destruir Tu culo.`)
+m.reply(`🐕 Ya Te Has Postituido Recientemente, Espera ⏱️ *${tiempo2}* Para Volver A Las Calles Y Evitar Destruir Tu culo.`)
 return
 }
 cooldowns[m.sender] = Date.now()
@@ -26,7 +26,7 @@ case 0:
 users[senderId].dragones += amountTaken
 users[randomUserId].dragones -= amountTaken
 conn.sendMessage(m.chat, {
-text: `🥵 ¡Te Postituiste Y Ganaste *${amountTaken} dragones 🐉* Dejaste Casi Seco A @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} dragones 🐉* a ${senderName}.`,
+text: `🥵 ¡Te Postituiste Y Ganaste *${amountTaken} perrunos 🐕* Dejaste Casi Seco A @${randomUserId.split("@")[0]}\n\nSe suman *+${amountTaken} perrunos 🐕* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
@@ -34,14 +34,14 @@ break
 case 1:
 let amountSubtracted = Math.min(Math.floor(Math.random() * (senderYenes - minAmount + 1)) + minAmount, maxAmount)
 users[senderId].dragones -= amountSubtracted
-conn.reply(m.chat, `🥵 Le Rompiste La Verga A Tu Cliente Te Cobro Y Se Te Quitan *-${amountSubtracted} dragones 🐉* a ${senderName}.`, m, rcanal)
+conn.reply(m.chat, `🥵 Le Rompiste La Verga A Tu Cliente Te Cobro Y Se Te Quitan *-${amountSubtracted} perrunos 🐕* a ${senderName}.`, m, rcanal)
 break
 case 2:
 let smallAmountTaken = Math.min(Math.floor(Math.random() * (randomUserYenes / 2 - minAmount + 1)) + minAmount, maxAmount)
 users[senderId].dragones += smallAmountTaken
 users[randomUserId].dragones -= smallAmountTaken
 conn.sendMessage(m.chat, {
-text: `🥵 Vuelves A Las Calles Y Te Vas A Un Motel Te Paga ${smallAmountTaken} dragones 🐉* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} dragones 🐉* a ${senderName}.`,
+text: `🥵 Vuelves A Las Calles Y Te Vas A Un Motel Te Paga ${smallAmountTaken} perrunos 🐕* de @${randomUserId.split("@")[0]}\n\nSe suman *+${smallAmountTaken} perrunos 🐕* a ${senderName}.`,
 contextInfo: { 
 mentionedJid: [randomUserId],
 }}, { quoted: m })
