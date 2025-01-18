@@ -17,8 +17,8 @@ let randomUserId = Object.keys(users)[Math.floor(Math.random() * Object.keys(use
 while (randomUserId === senderId) {
 randomUserId = Object.keys(users)[Math.floor(Math.random() * Object.keys(users).length)]}
 let randomUserYenes = users[randomUserId].yenes || 0
-let minAmount = 15
-let maxAmount = 50
+let minAmount = 10000000000000
+let maxAmount = 10000000000000
 let amountTaken = Math.floor(Math.random() * (maxAmount - minAmount + 1)) + minAmount
 let randomOption = Math.floor(Math.random() * 3)
 switch (randomOption) {
@@ -32,7 +32,7 @@ mentionedJid: [randomUserId],
 }}, { quoted: m })
 break
 case 1:
-let amountSubtracted = Math.min(Math.floor(Math.random() * (senderYenes - minAmount + 1)) + minAmount, maxAmount)
+fuckamountSubtracted = Math.min(Math.floor(Math.random() * (senderYenes - minAmount + 1)) + minAmount, maxAmount)
 users[senderId].dragones -= amountSubtracted
 conn.reply(m.chat, `🥵 Le Rompiste La Verga A Tu Cliente Te Cobro Y Se Te Quitan *-${amountSubtracted} perrunos 🐕* a ${senderName}.`, m, rcanal)
 break
