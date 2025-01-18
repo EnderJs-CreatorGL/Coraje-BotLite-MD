@@ -63,7 +63,7 @@ ID: *${randomCharacter.url || 'No disponible'}*`; // Manejo de ID
 };
 
 handler.help = ['ver', 'rw', 'rollwaifu'];
-handler.tags = ['gacha'];
+handler.tags = ['slut'];
 handler.command = ['ver', 'rw', 'rollwaifu'];
 
 export default handler;
