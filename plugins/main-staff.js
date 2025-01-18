@@ -5,22 +5,22 @@ let staff = `✨ *EQUIPO DE AYUDANTES*
 
 👑 *Propietario:*
 
-• Solar
+•   Ҡҽѵìղلʂ
 🤴 *Rol:* Propietario
 📱 *Número:* wa.me/5492612721386
 ✨️ *GitHub:* https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD
 
 🚀  *Colaboradores:*
 
-• Zaphkiel Power
+•   Zaphkiel Power
 🦁 *Rol:* Developer
 📱 *Número:* Wa.me/50558124470
 
-• Ivan Mods
+•   Ivan Mods
 🐯 *Rol:* Contribuidor
 📱 *Número:* Wa.me/595992667005
 
-• Gaby family
+•   Gaby Family
 💻 *Rol:* Soporte 
 📱 *Número:* Wa.me/5493834258985
 `
