@@ -7,10 +7,10 @@ if (conn.user.jid == conn.user.jid) {
 
 const { key } = await conn.sendMessage(m.chat, {text: `*Ejecutando orden, Me estoy reiniciando*...`}, {quoted: m})
 await delay(1000 * 1)
-await conn.sendMessage(m.chat, {text: `📦 Cargando...`, edit: key})
+await conn.sendMessage(m.chat, {text: `Reiniciando...`, edit: key})
 await delay(1000 * 1)
-await conn.sendMessage(m.chat, {text: `♻️ Cargando...`, edit: key})
-await conn.sendMessage(m.chat, {text: `*『🍀』*Espere 15 segundos a mi reactivacion*...*`, edit: key})
+await conn.sendMessage(m.chat, {text: `By Coraje-BotLite-MD`, edit: key})
+await conn.sendMessage(m.chat, {text: `*『🍀』*Espere 15 segundos a mi reactivacion...*`, edit: key})
 
 process.send('reset')
 } else throw 'eh'
