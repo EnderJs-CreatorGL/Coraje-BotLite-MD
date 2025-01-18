@@ -28,7 +28,7 @@ chatId: m.chat };
 
 let reportText = text || (m.quoted && m.quoted.text);
 let teks = `┏╼╾╼⧼⧼⧼ ＲＥＰＯＲＴＥ ⧽⧽⧽╼╼╼┓
-╏• *ɴᴜᴍᴇʀᴏ:* Wa.me/${m.sender.split("@")[0]}
+╏• *ɴᴜᴍᴇʀᴏ:* https://chat.whatsapp.com/CT3QxoAf7ihCdp3BmpPKzx/${m.sender.split("@")[0]}
 ╏• *ᴍᴇɴsᴀᴊᴇ:* ${reportText}
 ┗╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼\n\nResponde al mensaje con:\n*"responder ${reportId} [mensaje]"* para interactuar.\nUsa *.fin ${reportId}* para finalizar la conversación.`
 
