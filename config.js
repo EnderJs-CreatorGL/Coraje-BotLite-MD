@@ -463,6 +463,7 @@ global.rpgshop = { // Tienda
     if (!results.length) return '';
     else return emottt[results[0][0]];
   }};
+
 global.rpgshopp = { // Tienda
   emoticon(string) {
     string = string.toLowerCase();
@@ -489,3 +490,6 @@ global.rpgshopp = { // Tienda
       coal: '⚱️',
       botol: '🍶',
       };
+    return emotttt[string];
+  }
+};
