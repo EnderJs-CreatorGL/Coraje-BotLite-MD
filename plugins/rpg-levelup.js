@@ -20,7 +20,9 @@ txt += `*${before}* ➔ *${user.level}* [ ${user.role} ]\n\n`
 txt += `• ⭐ Nivel anterior : ${before}\n`
 txt += `• 🌟 Nuevos niveles : ${user.level}\n`
 txt += `• 📅 Fecha : ${new Date().toLocaleString('id-ID')}\n\n`
-txt += `🐕 *Nota:* _Cuanto más a interactúes con *Coraje-BotLite-MD*, mayor será tu nivel_`
+txt += `🐕 *Nota:* _Cuanto más a interactúes con *Coraje-BotLite-MD*, mayor será tu nivel_
+
+*"¡¿Y ustedes qué carajos creen?! ¡¿Suben experiencia como si fuera un juego?! ¡Cada vez que suben, yo tengo que enfrentarme a la peor pesadilla de la historia! ¡Ya déjenme de joder, que soy el único con huevos para lidiar con esto!"* 🐾💥`
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, rcanal)}}
 
 handler.help = ['levelup']
