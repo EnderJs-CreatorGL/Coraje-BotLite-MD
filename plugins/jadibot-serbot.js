@@ -30,7 +30,7 @@ let handler = async (_0x1f703f, {
   isOwner: _0x2c66ee
 }) => {
   if (!global.db.data.settings[_0x4d3e5b.user.jid].jadibotmd) {
-    return _0x4d3e5b.reply(_0x1f703f.chat, "🐉 Este Comando está deshabilitado por mi creador.", _0x1f703f, rcanal);
+    return _0x4d3e5b.reply(_0x1f703f.chat, "🐕 Este Comando está deshabilitado por mi creador.", _0x1f703f, rcanal);
   }
   const _0x3f86eb = _0x163213[0x0] && /(--code|code)/.test(_0x163213[0x0].trim()) ? true : !!(_0x163213[0x1] && /(--code|code)/.test(_0x163213[0x1].trim()));
   let _0xf20c46;
@@ -107,12 +107,12 @@ let handler = async (_0x1f703f, {
         'msgRetryCache': _0x5d2b76,
         'version': [0x2, 0xbb8, 0x3c8d6c7b],
         'syncFullHistory': true,
-        'browser': _0x3f86eb ? ["Ubuntu", "Chrome", "110.0.5585.95"] : ["Kakaroto-Bot-MD (Sub Bot)", "Chrome", '2.0.0'],
+        'browser': _0x3f86eb ? ["Ubuntu", "Chrome", "110.0.5585.95"] : ["Coraje-BotLite-MD (Sub Bot)", "Chrome", '2.0.0'],
         'defaultQueryTimeoutMs': undefined,
         'getMessage': async _0x5bf562 => {
           if (store) {}
           return {
-            'conversation': "Kakaroto-Bot-MD"
+            'conversation': "Coraje-BotLite-MD"
           };
         }
       };
@@ -134,7 +134,7 @@ let handler = async (_0x1f703f, {
             'image': await _0x19d2fd.toBuffer(_0x2b9520, {
               'scale': 0x8
             }),
-            'caption': "🐉 S E R B O T - S U B B O T 🐉\n\n*Escanea este QR para ser un Sub Bot*\n\n☁️ Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.\n" + _0x5129c4.toString("utf-8")
+            'caption': "🐕 S E R B O T - S U B B O T 🐕\n\n*Escanea este QR para ser un Sub Bot*\n\n🐾 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.\n" + _0x5129c4.toString("utf-8")
           }, {
             'quoted': _0x1f703f
           });
@@ -147,7 +147,7 @@ let handler = async (_0x1f703f, {
         }
         if (_0x2b9520 && _0x3f86eb) {
           _0xf20c46 = await _0x4d3e5b.sendMessage(_0x1f703f.chat, {
-            'text': "🐉 S E R B O T - S U B B O T 🐉\n\n*Usa este Código para convertirte en un Sub Bot*\n\n☁️ Pasos:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Selecciona Vincular con el número de teléfono\n\n`4` : Escriba el Codigo\n\n> *Nota:* Este Código solo funciona en el número que lo solicito.\n" + _0x5129c4.toString("utf-8")
+            'text': "🐕 S E R B O T - S U B B O T 🐕\n\n*Usa este Código para convertirte en un Sub Bot*\n\n🐾 Pasos:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Selecciona Vincular con el número de teléfono\n\n`4` : Escriba el Codigo\n\n> *Nota:* Este Código solo funciona en el número que lo solicito.\n" + _0x5129c4.toString("utf-8")
           }, {
             'quoted': _0x1f703f
           });
@@ -186,7 +186,7 @@ let handler = async (_0x1f703f, {
           console.log(_0x4cdff9);
           if (_0x4cdff9 == 0x195) {
             await _0x1b3d66.unlinkSync('./' + jadi + '/' + _0x399b85 + "/creds.json");
-            return await _0x1f703f.reply("☁️ Reenvia nuevamente el comando.");
+            return await _0x1f703f.reply("🐾 Reenvia nuevamente el comando.");
           }
           if (_0x4cdff9 === DisconnectReason.restartRequired) {
             _0x3d0599();
@@ -194,18 +194,18 @@ let handler = async (_0x1f703f, {
           } else {
             if (_0x4cdff9 === DisconnectReason.loggedOut) {
               sleep(0xfa0);
-              return _0x1f703f.reply("🐲 *Tu dispositivo se ha deconectado*\n\nTendras que volver a conectarte usando:\n#deletesesion (Para borrar datos y poder volver a solita el QR o el code)");
+              return _0x1f703f.reply("🐶 *Tu dispositivo se ha deconectado*\n\nTendras que volver a conectarte usando:\n.deletesesion (Para borrar datos y poder volver a solita el QR o el code)");
             } else {
               if (_0x4cdff9 == 0x1ac) {
                 await _0x34bb93(false);
-                return _0x1f703f.reply("🐲 La conexión se ha cerrado de manera inesperada, intentaremos reconectar...");
+                return _0x1f703f.reply("🐶 La conexión se ha cerrado de manera inesperada, intentaremos reconectar...");
               } else {
                 if (_0x4cdff9 === DisconnectReason.connectionLost) {
                   await _0x3d0599();
                   return console.log("\n⚠️ Conexión perdida con el servidor, reconectando....");
                 } else {
                   if (_0x4cdff9 === DisconnectReason.badSession) {
-                    return await _0x1f703f.reply("🐲 La conexión se ha cerrado, deberá de conectarse manualmente usando el comando *#serbot* y reescanear el nuevo *QR.* Que fué enviada la primera vez que se hizo *SubBot*");
+                    return await _0x1f703f.reply("🐶 La conexión se ha cerrado, deberá de conectarse manualmente usando el comando *.serbot* y reescanear el nuevo *QR.* Que fué enviada la primera vez que se hizo *SubBot*");
                   } else {
                     if (_0x4cdff9 === DisconnectReason.timedOut) {
                       await _0x34bb93(false);
@@ -226,18 +226,18 @@ let handler = async (_0x1f703f, {
           _0x11bc9d.isInit = true;
           global.conns.push(_0x11bc9d);
           await _0x4d3e5b.sendMessage(_0x1f703f.chat, {
-            'text': _0x163213[0x0] ? "🐉 *Está conectado(a)!! Por favor espere se está cargando los mensajes...*\n\n☁️ *Opciones Disponibles:*\n*» " + _0x3b5ef5 + "pausarsb _(Detener la función Sub Bot)_*\n*» " + _0x3b5ef5 + "eliminarsesion _(Borrar todo rastro de Sub Bot)_*\n*» " + _0x3b5ef5 + "serbot _(Nuevo código QR o Conectarse si ya es Sub Bot)_*" : "🐉 Conexión con éxito!!! Puede conectarse usando:" + (" " + (_0x3b5ef5 + _0x13a388))
+            'text': _0x163213[0x0] ? "🐕 *Está conectado(a)!! Por favor espere se está cargando los mensajes...*\n\n🐾 *Opciones Disponibles:*\n*» " + _0x3b5ef5 + "pausarsb _(Detener la función Sub Bot)_*\n*» " + _0x3b5ef5 + "eliminarsesion _(Borrar todo rastro de Sub Bot)_*\n*» " + _0x3b5ef5 + "serbot _(Nuevo código QR o Conectarse si ya es Sub Bot)_*" : "🐕 Conexión con éxito!!! Puede conectarse usando:" + (" " + (_0x3b5ef5 + _0x13a388))
           }, {
             'quoted': _0x1f703f
           });
-          let _0x5e2b27 = ("\n🐉 *Bot* » Wa.me/" + _0x1f703f.sender.split`@`[0x0] + "\n👤 *Dueño* » " + (_0x1f703f.pushName || "Anónimo") + "\n🔑 *Método de conexión* » " + (_0x3f86eb ? "Código de 8 dígitos" : "Código QR") + "\n💻 *Browser* » " + (_0x3f86eb ? "Ubuntu" : "Chrome") + "\n⭐️ *Versión Sub-Bot* » " + vsJB + "\n").trim();
+          let _0x5e2b27 = ("\n🐕 *Bot* » Wa.me/" + _0x1f703f.sender.split`@`[0x0] + "\n👤 *Dueño* » " + (_0x1f703f.pushName || "Anónimo") + "\n🔑 *Método de conexión* » " + (_0x3f86eb ? "Código de 8 dígitos" : "Código QR") + "\n💻 *Browser* » " + (_0x3f86eb ? "Ubuntu" : "Chrome") + "\n⭐️ *Versión Sub-Bot* » " + vsJB + "\n").trim();
           await sleep(0xbb8);
           await _0x4d3e5b.sendMessage(global.channelid, {
             'text': _0x5e2b27,
             'contextInfo': {
               'externalAdReply': {
                 'title': "【 🔔 𝗡𝗢𝗧𝗜𝗙𝗜𝗖𝗔𝗖𝗜𝗢́𝗡 🔔 】",
-                'body': "☁️ ¡Nuevo Sub-Bot encontrado!",
+                'body': "🐾 ¡Nuevo Sub-Bot encontrado!",
                 'thumbnailUrl': fotoperfil,
                 'sourceUrl': redes,
                 'mediaType': 0x1,
@@ -307,7 +307,7 @@ let handler = async (_0x1f703f, {
             _0x11bc9d.chats[_0x479a2b].isBanned = false;
           });
         } else {
-          console.log(_0x11bc9d.chats, "🐲 Omitiendo mensajes en espera.", _0x11bc9d.ev);
+          console.log(_0x11bc9d.chats, "🐶 Omitiendo mensajes en espera.", _0x11bc9d.ev);
           Object.keys(_0x11bc9d.chats).forEach(_0x58c123 => {
             _0x11bc9d.chats[_0x58c123].isBanned = true;
           });
