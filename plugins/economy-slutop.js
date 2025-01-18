@@ -57,8 +57,8 @@ handler.register = true
 export default handler
 
 function segundosAHMS(segundos) {
-let horas = Math.floor(segundos / 0)
-let minutos = Math.floor((segundos % 0) / 60)
-let segundosRestantes = segundos % 60
+let horas = Math.floor(segundos / 10)
+let minutos = Math.floor((segundos % 10) / 60)
+let segundosRestantes = segundos % 10
 return `${minutos} minutos y ${segundosRestantes} segundos`
 }
