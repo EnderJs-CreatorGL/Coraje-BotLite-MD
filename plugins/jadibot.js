@@ -20,12 +20,12 @@ let uniqid = `${mentionedJid.split`@`[0]}`
 const path = `./${jadi}/${uniqid}`
 
 if (!await fs.existsSync(path)) {
-await conn.sendMessage(m.chat, { text: `🐉 Usted no tiene una sesión, puede crear una usando:\n${usedPrefix + command}\n\nSi tiene una *(ID)* puede usar para saltarse el paso anterior usando:\n*${usedPrefix + command}* \`\`\`(ID)\`\`\`` }, { quoted: m })
+await conn.sendMessage(m.chat, { text: `🐕 Usted no tiene una sesión, puede crear una usando:\n${usedPrefix + command}\n\nSi tiene una *(ID)* puede usar para saltarse el paso anterior usando:\n*${usedPrefix + command}* \`\`\`(ID)\`\`\`` }, { quoted: m })
 return
 }
-if (global.conn.user.jid !== conn.user.jid) return conn.sendMessage(m.chat, {text: `🐉 Use este comando en el *Bot* principal.\n\n*https://api.whatsapp.com/send/?phone=${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}&type=phone_number&app_absent=0*`}, { quoted: m }) 
+if (global.conn.user.jid !== conn.user.jid) return conn.sendMessage(m.chat, {text: `🐕 Use este comando en el *Bot* principal.\n\n*https://api.whatsapp.com/send/?phone=${global.conn.user.jid.split`@`[0]}&text=${usedPrefix + command}&type=phone_number&app_absent=0*`}, { quoted: m }) 
 else {
-await conn.sendMessage(m.chat, { text: `😿 Tu sesión como *Sub-Bot* se ha eliminado` }, { quoted: m })}
+await conn.sendMessage(m.chat, { text: `🐶 Tu sesión como *Sub-Bot* se ha eliminado` }, { quoted: m })}
 try {
 fs.rmdir(`./${jadi}/` + uniqid, { recursive: true, force: true })
 await conn.sendMessage(m.chat, { text : `Ha cerrado sesión y borrado todo rastro.` } , { quoted: m })
@@ -35,9 +35,9 @@ reportError(e)
 break
 
 case isCommand2:
-if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `☁️ Si no es *SubBot* comuníquese al numero principal del *Bot* para ser *SubBot*`, m, rcanal, )
+if (global.conn.user.jid == conn.user.jid) conn.reply(m.chat, `🐾 Si no es *SubBot* comuníquese al numero principal del *Bot* para ser *SubBot*`, m, rcanal, )
 else {
-await conn.reply(m.chat, `🐉 Kakaroto-bot desactivado.`, m)
+await conn.reply(m.chat, `🐕 Coraje-Bot desactivado.`, m)
 conn.ws.close()}  
 break
 
@@ -70,7 +70,7 @@ return resultado;
 const message = users.map((v, index) => `• 「 ${index + 1} 」\n📎 Wa.me/${v.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}serbot%20--code\n👤 Usuario: ${v.user.name || 'Sub-Bot'}\n🕑 Online: ${ v.uptime ? convertirMsADiasHorasMinutosSegundos(Date.now() - v.uptime) : 'Desconocido'}`).join('\n\n__________________________\n\n');
 const replyMessage = message.length === 0 ? `No hay Sub-Bots disponible por el momento, verifique mas tarde.` : message;
 const totalUsers = users.length;
-const responseMessage = `🐉 *LISTA DE SUBBOTS*\n\n☁️ PUEDES PEDIR PERMISO PARA QUE TE DEJEN UNIR EL BOT A TÚ GRUPO\n\n\`\`\` ❤️🐉SI TE QUIERES CONVERTIR EN UN SUBBOT AHORA DALE CLICK A UNOS DE LOS ENLACES DE LOS BOT ACTIVOS* \`\`\`\n\n🐉SUBBOT CONECTADO🐉: ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
+const responseMessage = `🐕 *LISTA DE SUBBOTS*\n\n🐾 PUEDES PEDIR PERMISO PARA QUE TE DEJEN UNIR EL BOT A TÚ GRUPO\n\n\`\`\` ❤️🐕SI TE QUIERES CONVERTIR EN UN SUBBOT AHORA DALE CLICK A UNOS DE LOS ENLACES DE LOS BOT ACTIVOS* \`\`\`\n\n🐕SUBBOT CONECTADO🐕: ${totalUsers || '0'}\n\n${replyMessage.trim()}`.trim();
 await _envio.sendMessage(m.chat, {text: responseMessage, mentions: _envio.parseMention(responseMessage)}, {quoted: m})
 break   
 }}
