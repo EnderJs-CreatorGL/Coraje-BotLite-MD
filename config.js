@@ -488,4 +488,4 @@ global.rpgshopp = { // Tienda
       iron: '⛓️',
       coal: '⚱️',
       botol: '🍶'
-      
+      };
