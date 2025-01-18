@@ -319,7 +319,7 @@ console.error(e)
 /*for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
 let data = (await conn.onWhatsApp(jid))[0] || {}
 if (data.exists)
-m.reply(`⧋〘🐉 FORMATO ERRONEO 🐉〙⧋\n\n❒ 𝗘𝗥𝗥𝗢𝗥:\n\`\`\`${format(e)}\`\`\`\n`.trim(), data.jid)
+m.reply(`⧋〘🐕 FORMATO ERRONEO 🐕〙⧋\n\n❒ 𝗘𝗥𝗥𝗢𝗥:\n\`\`\`${format(e)}\`\`\`\n`.trim(), data.jid)
 }*/
 }}
 if (!opts['restrict'])
@@ -395,7 +395,7 @@ if (name != 'owner-unbanchat.js' && name != 'owner-exec.js' && name != 'owner-ex
 if (m.text && user.banned && !isROwner) {
 if (user.antispam > 2) return
 m.reply(`🚫 Está baneado(a), no puede usar los comandos de este bot!\n\n${user.bannedReason ? `\n📝 *Motivo:* 
-${user.bannedReason}` : '📃 *Motivo:* Sin Especificar'}\n\n⚠️ *Si este bot es cuenta oficial y tiene evidencia que respalde que este mensaje es un error, puede exponer su caso en:*\n\n☁️ ${asistencia}`)
+${user.bannedReason}` : '📃 *Motivo:* Sin Especificar'}\n\n⚠️ *Si este bot es cuenta oficial y tiene evidencia que respalde que este mensaje es un error, puede exponer su caso en:*\n\n🐾 ${asistencia}`)
 user.antispam++        
 return
 }
@@ -462,7 +462,7 @@ continue
 
 m.exp += xp
 if (!isPrems && plugin.dragones && global.db.data.users[m.sender].dragones < plugin.dragones * 1) {
-conn.reply(m.chat, `❮🐉❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝘿𝙧𝙖𝙜𝙤𝙣𝙚𝙨 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝘿𝙧𝙖𝙜𝙤𝙣𝙚𝙨, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
+conn.reply(m.chat, `❮🐕❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 Perrunos 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 Perrunos, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
 continue
 }
 
@@ -511,7 +511,7 @@ if (e.name)
 /*for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
 let data = (await conn.onWhatsApp(jid))[0] || {}
 if (data.exists)
-m.reply(`⧋〘🐉 𝗘𝗥𝗥𝗢𝗥 │ 𝗙𝗔𝗟𝗟𝗢 🐉〙⧋\n\n❒ 𝗘𝗥𝗥𝗢𝗥:\n\`\`\`${format(e)}\`\`\`\n`.trim(), data.jid)
+m.reply(`⧋〘🐕 𝗘𝗥𝗥𝗢𝗥 │ 𝗙𝗔𝗟𝗟𝗢 🐕〙⧋\n\n❒ 𝗘𝗥𝗥𝗢𝗥:\n\`\`\`${format(e)}\`\`\`\n`.trim(), data.jid)
 }*/
 m.reply(text)
 }} finally {
@@ -588,7 +588,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 //this.sendPresenceUpdate('recording', m.chat);
 
 if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|ai|megumin|megu|a|s)/gi)) {
-let emot = pickRandom(["🐲", "🐉", "☁️","💨", "👊", "💪", "🌻", "🏵️", "🥀", "💮", "🍁", "💖", "💞", "💕", "💋"])
+let emot = pickRandom(["🐶", "🐕", "🐾","✨", "👊", "💪", "🌻", "🏵️", "🥀", "💮", "🍁", "💖", "💞", "💕", "💋"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -741,13 +741,13 @@ const msg = {
 rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> Legend.', 
 owner: '「⚜️」 *Esta función solo puede ser usada por mi desarrollador.*', 
 mods: '「⚜️」 *Esta función solo puede ser usada por mis desarrolladores.*', 
-premium: '「☁️」 *Esta función solo es para usuarios Premium.*', 
-group: '「🐉」 *Esta funcion solo puede ser ejecutada en grupos.*', 
-private: '「🐉」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「💨」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「💨」 *Para usar esta función debo ser admin.*', 
-unreg: '「🐉」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_‼️ Ejemplo_* : */reg Legend.1000*',
-restrict: '「🐉」 *Esta característica esta desactivada.*'
+premium: '「🐾」 *Esta función solo es para usuarios Premium.*', 
+group: '「🐕」 *Esta funcion solo puede ser ejecutada en grupos.*', 
+private: '「🐕」 *Esta función solo puede ser usada en chat privado.*', 
+admin: '「🐾」 *Este comando solo puede ser usado por admins.*', 
+botAdmin: '「🐾」 *Para usar esta función debo ser admin.*', 
+unreg: '「🐕」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_‼️ Ejemplo_* : *.reg Coraje.22*',
+restrict: '「🐕」 *Esta característica esta desactivada.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
