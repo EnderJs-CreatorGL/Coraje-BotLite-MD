@@ -5,24 +5,24 @@ let staff = `✨ *EQUIPO DE AYUDANTES*
 
 👑 *Propietario:*
 
-• Destroy
+• Solar
 🤴 *Rol:* Propietario
-📱 *Número:* wa.me/584120346669
-✨️ *GitHub:* https://github.com/The-King-Destroy
+📱 *Número:* wa.me/5492612721386
+✨️ *GitHub:* https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD
 
 🚀  *Colaboradores:*
 
-• Emma-Violets-Versión 
+• Zaphkiel Power
 🦁 *Rol:* Developer
-📱 *Número:* Wa.me/522441357601
+📱 *Número:* Wa.me/50558124470
 
-• Niño Piña
+• Ivan Mods
 🐯 *Rol:* Contribuidor
-📱 *Número:* Wa.me/50557865603
+📱 *Número:* Wa.me/595992667005
 
-• Legna
+• Gaby family
 💻 *Rol:* Soporte 
-📱 *Número:* Wa.me/526671548329
+📱 *Número:* Wa.me/5493834258985
 `
 await conn.sendFile(m.chat, icons, 'yaemori.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
