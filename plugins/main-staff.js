@@ -12,17 +12,17 @@ let staff = `✨ *EQUIPO DE AYUDANTES*
 
 🚀  *Colaboradores:*
 
-•   Zaphkiel Power
-🦁 *Rol:* Developer
-📱 *Número:* Wa.me/50558124470
+•   MR.SHADOW
+💻 *Rol:* Soporte General
+📱 *Número:* Wa.me/50230076791
 
 •   Ivan Mods
 🐯 *Rol:* Contribuidor
 📱 *Número:* Wa.me/595992667005
 
-•   Gaby Family
-💻 *Rol:* Soporte 
-📱 *Número:* Wa.me/5493834258985
+•   Zaphkiel Power
+🦁 *Rol:* Developer
+📱 *Número:* Wa.me/50558124470
 `
 await conn.sendFile(m.chat, icons, 'yaemori.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
