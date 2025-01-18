@@ -15,7 +15,7 @@ user.exp += rsl
 }
 
 handler.help = ['trabajar']
-handler.tags = ['economy']
+handler.tags = ['owner']
 handler.command = ['workop']
 handler.group = true;
 handler.register = true
