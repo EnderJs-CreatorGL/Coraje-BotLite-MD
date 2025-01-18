@@ -11,7 +11,7 @@ setInterval(() => {
 
         conn.groupLeave(group);
         delete global.db.data.groupRents[group];
-        conn.reply(user, `🐶 *Adios a todos idotas, el Bot se va! ${group}.`, null);
+        conn.reply(user, `🍀 Coraje se despide , hasta la proxima!! ${group}.`, null);
       }
     });
   }
