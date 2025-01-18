@@ -25,7 +25,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
     let chat = global.db.data.chats[m.chat];
 
     if (chat.welcome && m.messageStubType === 27) {
-        let wel = `┌─⪩ Coraje-BotLite-MD  🌹 \n│「 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎 🍀 」\n└┬⪩ 「 @${userId.split`@`[0]} 」\n    │🌹  ${groupMetadata.subject}\n   └───────────────┈ ⳹\n\n> ✐ Puedes usar *#menu* para ver la lista de comandos.`;
+        let wel = `┌─⪩ Coraje-BotLite-MD  🌹 \n│「 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎 🍀 」\n└┬⪩ 「 @${userId.split`@`[0]} 」\n    │🌹  ${groupMetadata.subject}\n   └───────────────┈ ⳹\n\n> ✐ Puedes usar *.menu* para ver la lista de comandos.`;
         try {
             await conn.sendMini(m.chat, packname, dev, wel, img, img, channel, fkontak);
         } catch (sendError) {
@@ -35,7 +35,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
     // Mensaje de despedida (cuando se sale)
     if (chat.welcome && m.messageStubType === 28) {
-        let bye = `┌─⪩ Coraje-BotLite-MD ☘️  \n│「 𝐀𝐃𝐈Ó𝐒 🍁 」\n└┬⪩ 「 @${userId.split`@`[0]} 」\n   │ SE NOS FUE \n   │By Kevin family\n   └───────────────┈ ⳹`;
+        let bye = `┌─⪩ Coraje-BotLite-MD ☘️  \n│「 𝐀𝐃𝐈Ó𝐒 🍁 」\n└┬⪩ 「 @${userId.split`@`[0]} 」\n   │ Gracias Vuelva Prontos \n   │By Ҡҽѵìղلʂ Family\n   └───────────────┈ ⳹`;
         let img2;
         try {
             img2 = await (await fetch(goodbyeImage)).buffer(); 
