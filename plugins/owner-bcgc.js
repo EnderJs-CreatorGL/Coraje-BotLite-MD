@@ -4,7 +4,7 @@ const handler = async (m, {conn, isROwner, text}) => {
   const groups = Object.entries(getGroups).slice(0).map((entry) => entry[1]);
   const anu = groups.map((v) => v.id);
   const pesan = m.quoted && m.quoted.text ? m.quoted.text : text;
-  if (!pesan) throw '🐉 *Te faltó el texto.*';
+  if (!pesan) throw '🐕 *Te faltó el texto.*';
   // m.reply(`🥀 *𝖬𝖾𝗇𝗌𝖺𝗃𝖾 𝖤𝗇𝗏𝗂𝖺𝖽𝗈 𝖠:* ${anu.length} *Grupo/S*`)
   for (const i of anu) {
     await delay(500);
@@ -20,7 +20,7 @@ const handler = async (m, {conn, isROwner, text}) => {
           contextInfo: m,
         }}, {}).catch((_) => _);
   }
-  m.reply(`☁️ *𝖬𝖾𝗇𝗌𝖺𝗃𝖾 𝖤𝗇𝗏𝗂𝖺𝖽𝗈 𝖠:* ${anu.length} *Grupo/S*`);
+  m.reply(`🐾 *𝖬𝖾𝗇𝗌𝖺𝗃𝖾 𝖤𝗇𝗏𝗂𝖺𝖽𝗈 𝖠:* ${anu.length} *Grupo/S*`);
 };
 handler.help = ['broadcastgroup', 'bcgc'];
 handler.tags = ['owner'];
