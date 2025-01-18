@@ -40,7 +40,7 @@ var handler = async (m, { conn }) => {
     
     let noprem = `
 「 👤 *PERFIL DE USUARIO* 」
-☁️ *Nombre:* ${username}
+🐕 *Nombre:* ${username}
 💠 *Edad:* ${age}
 ⚧️ *Genero:* ${genre}
 🎂 *Cumpleaños:* ${birth} 
@@ -49,7 +49,7 @@ var handler = async (m, { conn }) => {
 🌀 *Registrado:* ${registered ? '✅': '❌'}
 
 「 💰 *RECURSOS* 」
-🐉 *Dragones:* ${dragones || 0}
+🐶 *Perrunos:* ${dragones || 0}
 🌟 *Nivel:* ${level || 0}
 ✨ *Experiencia:* ${exp || 0}
 ⚜️ *Rango:* ${role}
@@ -68,7 +68,7 @@ var handler = async (m, { conn }) => {
 ╰─────────────────⪨
 
 ╭────⪩ 𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 ⪨
-│⧼🐉⧽ *Dragones:* ${dragones || 0}
+│⧼🐶⧽ *Perrunos:* ${dragones || 0}
 │⧼🌟⧽ *ɴɪᴠᴇʟ:* ${level || 0}
 │⧼✨⧽ *ᴇxᴘᴇʀɪᴇɴᴄɪᴀ:* ${exp || 0}
 │⧼⚜️⧽ *ʀᴀɴɢᴏ:* ${role}
