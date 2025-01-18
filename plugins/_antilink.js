@@ -27,7 +27,7 @@ await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id:
 let responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
 if (responseb[0].status === "404") return;
 }} // else if (!bot.restrict) {
-// return m.reply('🐉 ¡Esta característica está deshabilitada!');
+// return m.reply('🐕 ¡Esta característica está deshabilitada!');
 // }
 return !0;
 }
