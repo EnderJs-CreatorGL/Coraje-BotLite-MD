@@ -62,8 +62,8 @@ ID: *${randomCharacter.url || 'No disponible'}*`; // Manejo de ID
     }
 };
 
-handler.help = ['ver', 'rw', 'rollwaifu'];
+handler.help = ['waifu'];
 handler.tags = ['slut'];
-handler.command = ['ver', 'rw', 'rollwaifu'];
+handler.command = ['waifu'];
 
 export default handler;
