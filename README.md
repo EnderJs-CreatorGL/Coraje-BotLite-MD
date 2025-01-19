@@ -64,7 +64,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/Diomar-s/Kakaroto-Bot-MD && cd 𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯
+git clone https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD/tree/main && cd 𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯
 ```
 
 ```bash
