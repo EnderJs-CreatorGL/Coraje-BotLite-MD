@@ -1,4 +1,4 @@
-//Coraje*//Código Creado por José XRL  IVAN ANNA
+//Código Creado por José XRL  IVAN ANNA
 //Desarrolladores 
 import axios from 'axios';
 
