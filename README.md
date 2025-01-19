@@ -180,6 +180,6 @@ href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="
 
 ### **`🌹 CREDITOS`**
 <a
-href="https://github.com/The-King-Destroy"><img src="https://github.com/The-King-Destroy.png" width="140" height="140" alt="Destroy"/></a>
+href="https://github.com/MRSHAD0W666"><img src="https://qu.ax/xQwmQ.jpg" width="140" height="140" alt="Destroy"/></a>
 
-[© Powered By Team STARCORE ⚡︎](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t)
+[© Powered By Team SHADOW INDUSTRIES ⚡︎](https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U)
