@@ -167,6 +167,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['play'];
 handler.tags = ['downloader'];
 
-handler.command = ['playapple'];
+handler.command = ['playapple',"mp3", "yta", "audio", "ytv", "video", "vídeo", "mp4", "mp3doc", "ytadoc", "audiodoc"];
 
 export default handler;
