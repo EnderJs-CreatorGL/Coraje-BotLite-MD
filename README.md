@@ -170,9 +170,9 @@ href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="
 
 | APP | TIPO | ENLACE |
 |------|-------------|-------|
-| WhatsApp | Canal | [¡Click aquí!](https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t) |
-| WhatsApp | Team STARCORE | [¡Click aquí!](https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v/3155) |
-| WhatsApp | Grupo Ofc | [¡Click aquí!](https://chat.whatsapp.com/Jjs2l4X3LdP7RHr06WsasW) |
+| WhatsApp | Canal | [¡Click aquí!](https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U) |
+| WhatsApp | Team SHADOW | [¡Click aquí!](https://chat.whatsapp.com/JG7nkbC39x39usNdfLVSaA/3155) |
+| WhatsApp | Grupo Ofc | [¡Click aquí!](https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b) |
  
 
 
