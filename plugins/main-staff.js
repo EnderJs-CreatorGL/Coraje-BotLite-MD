@@ -12,7 +12,7 @@ let staff = `✨ *EQUIPO DE AYUDANTES*
 
 🚀  *Colaboradores:*
 
-•   MR.SHADOW
+•   Mr.Shadow
 💻 *Rol:* Soporte General
 📱 *Número:* Wa.me/50230076791
 
