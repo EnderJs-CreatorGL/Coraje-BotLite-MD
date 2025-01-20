@@ -54,7 +54,7 @@ let handler = async (m, { conn, args }) => {
         const searchResponse = await fetch(`https://api.mangadex.org/manga?title=${encodeURIComponent(mangaName)}`);
         if (!searchResponse.ok) throw new Error('No se pudo encontrar el manga.');
         const { data: mangaList } = await searchResponse.json();
-        if (!mangaList.length) return conn.reply(m.chat, '💨 Manga no encontrado.', m);
+        if (!mangaList.length) return conn.reply(m.chat, '🐾 Manga no encontrado.', m);
         
         const mangaId = mangaList[0].id;
 
@@ -66,7 +66,7 @@ let handler = async (m, { conn, args }) => {
         let chapterData = chapters.find(ch => ch.attributes.chapter === chapterRequested);
 
         if (!chapterData) {
-            return conn.reply(m.chat, `🐲 Capítulo ${chapterRequested} no encontrado en ${mangaName}.`, m);
+            return conn.reply(m.chat, `🐶 Capítulo ${chapterRequested} no encontrado en ${mangaName}.`, m);
         }
         
         const images = [];
@@ -94,7 +94,7 @@ let handler = async (m, { conn, args }) => {
         await m.react('✅');
     } catch (error) {
         await m.react('✖️');
-        return conn.reply(m.chat, `💨 Error: ${error.message}`, m);
+        return conn.reply(m.chat, `🐾 Error: ${error.message}`, m);
     }
 };
 
