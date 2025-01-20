@@ -2,7 +2,7 @@ import yts from 'yt-search'
 
 var handler = async (m, { text, conn, args, command, usedPrefix }) => {
 
-if (!text) return conn.reply(m.chat, `🐕 *Escriba el título de algún vídeo de Youtube\n\nEjemplo, !${command} Goku ultra Instinto*`, m, rcanal, )
+if (!text) return conn.reply(m.chat, `🐕 *Escriba el título de algún vídeo de Youtube\n\nEjemplo, !${command} Coraje salvando a Muriel*`, m, rcanal, )
 
 conn.reply(m.chat, wait, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
