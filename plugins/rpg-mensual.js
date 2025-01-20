@@ -25,10 +25,10 @@ var handler = async (m, { conn }) => {
     user.diamonds = (user.diamonds || 0) + diamondReward;
 
     m.reply(`
-\`\`\`🎁 ¡Ha pasado un mes! ¡Disfruta de tu regalo mensual! 🐉\`\`\`
+\`\`\`🎁 ¡Ha pasado un mes! ¡Disfruta de tu regalo mensual! 🐕\`\`\`
 
 🪙 *Coins* : +${coinReward.toLocaleString()}
-🐉 *dragones* : +${yenesReward}
+🐕 *perrunos* : +${yenesReward}
 ✨ *Experiencia* : +${expReward}
 💎 *Diamantes* : +${diamondReward}`);
 
