@@ -22,11 +22,11 @@ if (!db.data.chats[m.chat].nsfw && m.isGroup) {
 
     let str;
     if (m.mentionedJid.length > 0) {
-        str = `\`${name2}\` *le está lamiendo el coño a* \`${name || who}\`.`;
+        str = `\`${name2}\` *le está lamiendo la concha a* \`${name || who}\`.`;
     } else if (m.quoted) {
-        str = `\`${name2}\` *le chupo el coño a* \`${name || who}\`.`;
+        str = `\`${name2}\` *le chupo la concha a* \`${name || who}\`.`;
     } else {
-        str = `\`${name2}\` *está lamiendo un coños! >.<*`.trim();
+        str = `\`${name2}\` *está lamiendo unas conchas! >.<*`.trim();
     }
     
     if (m.isGroup) {
