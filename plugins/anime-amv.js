@@ -9,11 +9,11 @@ let handler = async (m, {
     command
 }) => {
     await m.reply(wait)
-    if (!text) return m.reply('🐉 *Ingresa un numero 1/2*\n💨 *Ejemplo: .amv 1*')
+    if (!text) return m.reply('🐕 *Ingresa un numero 1/2*\n🐾 *Ejemplo: .amv 1*')
     if (text == '1') {
         try {
             let resl = await animeVideo()
-            let cap = `☁️ *Listo~*`
+            let cap = `🐾 *Listo~*`
             await conn.sendFile(m.chat, resl.source, "", cap, m)
         } catch (e) {
             await m.reply(`Error: ${e.message}`);
@@ -22,7 +22,7 @@ let handler = async (m, {
     if (text == '2') {
         try {
             let resl = await animeVideo2()
-            let cap = `☁️ *Listo~*`
+            let cap = `🐾 *Listo~*`
             await conn.sendFile(m.chat, resl.source, "", cap, m)
         } catch (e) {
             await m.reply(`Error: ${e.message}`);
