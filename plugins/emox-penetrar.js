@@ -10,7 +10,7 @@ let handler = async (m, { conn, command, text }) => {
     const responseMessage = `
 *TE HAN LLENADO LA CARA DE SEMEN POR PUTA Y ZORRA!*
 
-*Le ha metido el pene a* \`${text || userName}\` *con todo y condón hasta quedar seco, has dicho "por favor más duroooooo!, ahhhhhhh, ahhhhhh, hazme un hijo que sea igual de pitudo que tú!" mientras te penetraba y luego te ha dejado en silla de ruedas!*
+*Le ha metido el pene a* \`${text || userName}\` *con todo hasta quedar seco, has dicho "por favor más duroooooo!, ahhhhhhh, ahhhhhh, hazme un hijo que sea igual de pitudo que tú!" mientras te penetraba y luego te ha dejado en silla de ruedas!*
 
 \`${text || userName}\` 
 🔥 *YA TE HAN PENETRADO!*`;
