@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['cheat']
 handler.tags = ['owner']
-handler.command = /^(ilimitado|infiniy)$/i
+handler.command = /^('infinity')$/i
 handler.rowner = true
 handler.mods = false
 handler.premium = false
