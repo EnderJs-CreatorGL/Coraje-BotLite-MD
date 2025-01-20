@@ -15,7 +15,7 @@ let results = await yts(text)
 let tes = results.all
 let teks = results.all.map(v => {
 switch (v.type) {
-case 'video': return `☁️ *Título:* 
+case 'video': return `🐾 *Título:* 
 » ${v.title}
 
 🔗 *Enlace:* 
