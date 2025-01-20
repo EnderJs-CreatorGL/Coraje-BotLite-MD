@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['redBright']
 });
-say(`Developed By • Legendary`, {
+say(`Developed By • KevinJs`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
