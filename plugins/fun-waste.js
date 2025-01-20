@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
     let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './logo.jpg')
     conn.sendFile(m.chat, global.API('https://some-random-api.com', '/canvas/overlay/wasted', {
       avatar: pp, 
-    }), 'waste.png', `*Ah! Mierda :c :* ${name}\n\nSAQUENME DE VENEZUELA`, m)
+    }), 'waste.png', `*Ah! Mierda :c :* ${name}\n\nSAQUENME DE ARGENTINA`, m)
   }
   
   handler.help = ['waste @user']
