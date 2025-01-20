@@ -42,7 +42,7 @@ const createPDF = async (images, part) => {
 
 let handler = async (m, { conn, args }) => {
     if (args.length < 2) {
-        return conn.reply(m.chat, '🐉 Por favor, ingresa el nombre del manga y el número del capítulo. Ejemplo: .mangad Naruto 1', m);
+        return conn.reply(m.chat, '🐕 Por favor, ingresa el nombre del manga y el número del capítulo. Ejemplo: .mangad Naruto 1', m);
     }
 
     const mangaName = args.slice(0, -1).join(' ');
