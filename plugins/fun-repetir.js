@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin }) => {
 
     if (!isAdmin) return m.reply('⚠️ *Solo los administradores del grupo pueden usar este comando.*');
 
-    if (!isBotAdmin) return m.reply('🤖 *Necesito ser administrador para ejecutar este comando.*');
+    if (!isBotAdmin) return m.reply('🐕 *Necesito ser administrador para ejecutar este comando.*');
 
     // Verifica que se hayan pasado los argumentos correctos
 
