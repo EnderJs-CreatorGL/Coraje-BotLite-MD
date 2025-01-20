@@ -94,12 +94,12 @@ ch3: '120363323286489957@newsletter',
 }
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp4 = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U' //Channel CorajeBot 
-global.gp1 = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b' //Grupo 
-global.gp2 = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U'//
-global.comunidad1 = 'https://chat.whatsapp.com/JG7nkbC39x39usNdfLVSaA' //Comunidad Multiverso Cartoon
+global.gp4 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Channel Team StarCore 
+global.gp1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' //Grupo 
+global.gp2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'//
+global.comunidad1 = 'https://chat.whatsapp.com/JG7nkbC39x39usNdfLVSaA' //Comunidad Coraje Family
 global.channel = 'https://whatsapp.com/channel/0029Vb2YQcW1t90dSKG8ac2U' //Canal Oficial
-global.channel2 = 'https://chat.whatsapp.com/J1ImnztNEjA9e1mzwTzrLY' //Grupo Test
+global.channel2 = 'https://chat.whatsapp.com/LgikJvYe5h52WR90PVNi8b' //Grupo Test
 global.yt = '' //Canal De Youtube
 global.md = 'https://github.com/EnderJs-CreatorGL/Coraje-BotLite-MD' //Github Oficial
 global.correo = 'kevincordoba223322@gmail.com'
@@ -489,7 +489,4 @@ global.rpgshopp = { // Tienda
       iron: '⛓️',
       coal: '⚱️',
       botol: '🍶',
-      };
-    return emotttt[string];
-  }
-};
+     
