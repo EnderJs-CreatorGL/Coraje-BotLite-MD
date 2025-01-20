@@ -2,11 +2,11 @@ import fetch from 'node-fetch';
 
 var handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) {
-        throw m.reply(`*🐉 Ejemplo: ${usedPrefix + command}* https://vm.tiktok.com/ZMhAk8tLx/`);
+        throw m.reply(`*🐕 Ejemplo: ${usedPrefix + command}* https://vm.tiktok.com/ZMhAk8tLx/`);
     }
 
     try {
-        await conn.reply(m.chat, "☁️ *Espere un momento, estoy descargando su audio...*", m);
+        await conn.reply(m.chat, "🐾 *Espere un momento, estoy descargando su audio...*", m);
 
         const tiktokData = await tiktokdl(args[0]);
 
@@ -20,7 +20,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
         if (audioURL) {
             await conn.sendFile(m.chat, audioURL, "audio.mp3", "`DESCARGA DE AUDIO DE TIKTOK`" + `\n\n${infonya_gan}`, m);
         } else {
-            throw m.reply("💨 *No se pudo descargar el audio.*");
+            throw m.reply("🐾 *No se pudo descargar el audio.*");
         }
     } catch (error1) {
         conn.reply(m.chat, `Error: ${error1}`, m);
