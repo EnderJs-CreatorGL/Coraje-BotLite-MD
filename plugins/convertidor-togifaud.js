@@ -11,7 +11,7 @@ let mime = (q.msg || q).mimetype || ''
 if (!/(mp4)/.test(mime)) return conn.reply(m.chat, `🌟 Responde a un *Video.*`, m, rcanal)
 await m.react(rwait)
 let media = await q.download()
-let listo = '💭 *Aquí Tienes* ✨'
+let listo = '🐾 *Aquí Tienes* ✨'
 conn.sendMessage(m.chat, { video: media, gifPlayback: true, caption: listo }, { quoted: fkontak })
 await m.react(done)
 }
