@@ -20,14 +20,14 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!users[userId]) users[userId] = { dragones: 100 };
     let user = global.db.data.users[m.sender];
     if (user.dragones < cantidad) {
-        return m.reply(`🐕 No tienes suficientes perrunos para apostar. Tienes ${user.dragones} dragones.`);
+        return m.reply(`🐕 No tienes suficientes perrunos para apostar. Tienes ${user.dragones} perrunos.`);
     }
 
     let resultado = Math.random() < 0.5 ? 'cara' : 'cruz';
    let mensaje = `⭐️ La moneda ha caído en `
     if (resultado === eleccion) {
         user.dragones += cantidad; 
-    mensaje += `*${resultado}* y has ganado *${cantidad} dragones*!`;
+    mensaje += `*${resultado}* y has ganado *${cantidad} perrunos*!`;
     } else {
         user.dragones -= cantidad;
         mensaje += `*${resultado}* y has perdido *${cantidad} perrunos*!`;
