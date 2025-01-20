@@ -63,7 +63,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.yenes + gata} ${rpgshopp.emoticon('yenes')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.yenes} ${rpgshopp.emoticon('yenes')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
-*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
+*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n🐕 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 if (/prem3/i.test(command)) {
 var tiempoPremium = 30 * text 
@@ -94,7 +94,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.yenes + gata} ${rpgshopp.emoticon('yenes')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.yenes} ${rpgshopp.emoticon('yenes')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
-*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
+*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n🐕 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 if (/prem4/i.test(command)) {
 var tiempoPremium = 1 * text 
@@ -125,7 +125,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.yenes + gata} ${rpgshopp.emoticon('yenes')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.yenes} ${rpgshopp.emoticon('yenes')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
-*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
+*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n🐕 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 if (/prem5/i.test(command)) {
 var tiempoPremium = 3 * text 
@@ -156,7 +156,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.yenes + gata} ${rpgshopp.emoticon('yenes')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.yenes} ${rpgshopp.emoticon('yenes')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
-*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
+*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n🐕 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 
 if (/prem6/i.test(command)) {
@@ -188,7 +188,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.yenes + gata} ${rpgshopp.emoticon('yenes')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.yenes} ${rpgshopp.emoticon('yenes')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min*
-*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
+*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n🐕 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 
 if (/prem7/i.test(command)) {
@@ -220,7 +220,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.yenes + gata} ${rpgshopp.emoticon('yenes')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.yenes} ${rpgshopp.emoticon('yenes')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
-*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
+*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n🐕 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 
 if (/prem8/i.test(command)) {
@@ -252,7 +252,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.yenes + gata} ${rpgshopp.emoticon('yenes')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.yenes} ${rpgshopp.emoticon('yenes')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
-*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
+*╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n🐕 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 
 if (command) {
