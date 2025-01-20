@@ -6,7 +6,7 @@ import path from 'path';
  
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 
-  if (!text) throw m.reply(`🐉 Ejemplo de uso: ${usedPrefix + command} https://web.whatsapp.com`);
+  if (!text) throw m.reply(`🐕 Ejemplo de uso: ${usedPrefix + command} https://web.whatsapp.com`);
 
 const svweb = {
   recording: async (link, responseType = 1, convertOption = '--convert') => {
@@ -34,7 +34,7 @@ const svweb = {
         await fs.mkdir(path.dirname(filePath), { recursive: true });
         await fs.writeFile(filePath, result, responseType === 1 ? null : 'base64');
         console.log(`Se guardo el video en ${filePath}`);
-        await conn.sendFile(m.chat, filePath, `ssweb.mp4`, `\`☁️ Pedido terminado\``, m)
+        await conn.sendFile(m.chat, filePath, `ssweb.mp4`, `\`🐾 Pedido terminado\``, m)
         
         return { filePath, data: result };
       } 
