@@ -30,7 +30,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     mensaje += `*${resultado}* y has ganado *${cantidad} dragones*!`;
     } else {
         user.dragones -= cantidad;
-        mensaje += `*${resultado}* y has perdido *${cantidad} dragones*!`;
+        mensaje += `*${resultado}* y has perdido *${cantidad} perrunos*!`;
     }
 
     await conn.reply(m.chat, mensaje, m);
