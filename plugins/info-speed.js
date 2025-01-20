@@ -27,7 +27,7 @@ let texto = `🚩 *${global.botname}*
 🕒 *Activo Durante:*
 → ${muptime}
 
-💫 *Chats:*
+🐕 *Chats:*
 → ${chats.length} *Chats privados*
 → ${groups.length} *Grupos*
 
