@@ -81,11 +81,11 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 
 global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '𝘊𝘰𝘳𝘢𝘫𝘦', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕🐕', jpegThumbnail: logo5 }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Kakaroto', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐓𝐨𝐧𝐭𝐨 (￣へ ￣ ) 🐾', jpegThumbnail: logo3 }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Coraje', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐓𝐨𝐧𝐭𝐨 (￣へ ￣ ) 🐾', jpegThumbnail: logo3 }}};
 
 global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '𝘊𝘰𝘳𝘢𝘫𝘦', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '¤ 𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯 ¤ 🐕ᚐ', jpegThumbnail: logo5 }}};
 
-global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`͟͞ ĹєǤ𝒆𝐧𝐃 ͟͞`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `⚘݄𝑪𝒐𝒓𝒂𝒋𝒆 (^_^♪)\n Ҡҽѵìղلʂ ͟͞`, 'jpegThumbnail': logo4 }}}
+global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`͟͞ Ҡҽѵìղلʂ ͟͞`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `⚘݄𝑪𝒐𝒓𝒂𝒋𝒆 (^_^♪)\n Ҡҽѵìղلʂ ͟͞`, 'jpegThumbnail': logo4 }}}
 
 global.ch = {
 ch1: '120363323286489957@newsletter',
