@@ -6,9 +6,9 @@ import path from 'path';
 let handler = async (m, { args, command, usedPrefix }) => {
   let q = m.quoted ? m.quoted : m;
   let mime = (q.msg || q).mimetype || '';
-  if (!mime) throw `*[🐉] Responde al archivo multimedia que deseas convertir en enlace.*`;
+  if (!mime) throw `*[🐕] Responde al archivo multimedia que deseas convertir en enlace.*`;
   let media = await q.download();
-  let tempFilePath = path.join(os.tmpdir(), 'kakatoto');
+  let tempFilePath = path.join(os.tmpdir(), 'Coraje');
   fs.writeFileSync(tempFilePath, media);
 
   let form = new FormData();
