@@ -11,8 +11,8 @@ var handler = async (m, { conn, text, usedPrefix, command }) => {
     let image = res.getRandom()
     let link = image
     conn.sendFile(m.chat, link, 'google.jpg', `*${htki} Google Image ${htka}*
-🐉 *Consulta:* ${text}
-☁️ *Fuente:* Google
+🐕 *Consulta:* ${text}
+🐾 *Fuente:* Google
 `, m)
 }
 
