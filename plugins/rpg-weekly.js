@@ -19,7 +19,7 @@ let handler = async (m, { conn }) => {
     user.exp = (user.exp || 0) + expReward;
 
     m.reply(`
-🎁 ¡Ha pasado una semana! ¡Disfruta de tu regalo semanal! 🐉
+🎁 ¡Ha pasado una semana! ¡Disfruta de tu regalo semanal! 🐕
 
 🪙 *Coins* : +${we.toLocaleString()}
 🐉 *dragones* : +${yenesReward}
