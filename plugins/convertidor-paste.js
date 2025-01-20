@@ -6,7 +6,7 @@ const handler = async (m, { conn, args }) => {
     const text = contentParts.join(" ");
 
     if (!text) {
-        return m.reply("🐉 *Nombre y Texto que deseás Subír.*\n\n *Ejemplo:*\n\n *.paste Hola 𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨-𝐁𝐨𝐭-𝐌𝐃.*");
+        return m.reply("🐕 *Nombre y Texto que deseás Subír.*\n\n *Ejemplo:*\n\n *.paste Hola Coraje-BotLite-MD.*");
     }
 
     const fileName = name || "nombre_no_definifo";
