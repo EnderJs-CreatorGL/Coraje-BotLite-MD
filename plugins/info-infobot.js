@@ -55,7 +55,7 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let goku = `╭─⬣「 *Info De Kakaroto* 」⬣\n`
+let goku = `╭─⬣「 *Info De Coraje* 」⬣\n`
 goku += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
 goku += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 goku += `│ 📦 *Total Plugins* : ${totalf}\n`
@@ -70,7 +70,7 @@ goku += `│ 🚩 *Comandos Ejecutados* : ${toNum(totalStats)} ( *${totalStats}*
 goku += `│ 🐢 *Grupos Registrados* : ${toNum(totalchats)} ( *${totalchats}* )\n`
 goku += `│ 🍧 *Registrados* : ${toNum(totalreg)} ( *${totalreg}* ) Usuarios\n`
 goku += `╰─⬣\n\n`
-goku += `╭─⬣「 *Chats De Kakaroto* 」⬣\n`
+goku += `╭─⬣「 *Chats De Coraje* 」⬣\n`
 goku += `│ 🧃 *${groupsIn.length}* Chats en Grupos\n`
 goku += `│ 🌸 *${groupsIn.length}* Grupos Unidos\n`
 goku += `│ 🍁 *${groupsIn.length - groupsIn.length}* Grupos Salidos\n`
