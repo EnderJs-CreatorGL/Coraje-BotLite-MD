@@ -489,4 +489,8 @@ global.rpgshopp = { // Tienda
       iron: '⛓️',
       coal: '⚱️',
       botol: '🍶',
-     
+         };
+    const results = Object.keys(emottt).map((v) => [v, new RegExp(v, 'gi')]).filter((v) => v[1].test(string));
+    if (!results.length) return '';
+    else return emottt[results[0][0]];
+  }};
