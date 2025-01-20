@@ -33,20 +33,20 @@ const getDownloadLinks = async (url) => {
 };
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-  if (!args[0]) throw `*\`🐉 Ingresa el link del anime para obtener información. Ejemplo:.\`*\n\n\`${usedPrefix+command} https://tioanime.com/ver/dungeon-meshi-1\`\n\n> Nota: En el comando #animes no da los links completos pq son muy largos y por éso usé un acortador, pero igualmente sirven.`
+  if (!args[0]) throw `*\`🐕 Ingresa el link del anime para obtener información. Ejemplo:.\`*\n\n\`${usedPrefix+command} https://tioanime.com/ver/dungeon-meshi-1\`\n\n> Nota: En el comando #animes no da los links completos pq son muy largos y por éso usé un acortador, pero igualmente sirven.`
 
   const links = await getDownloadLinks(args[0]);
 
   if (links.error) throw links.error;
 
-  let messageText = `☁️\n\n\`• 𝐋𝐢𝐬𝐭𝐚 𝐝𝐞 𝐨𝐩𝐜𝐢𝐨𝐧𝐞𝐬 𝐩𝐚𝐫𝐚 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫:\n\n`;
+  let messageText = `🐾\n\n\`• 𝐋𝐢𝐬𝐭𝐚 𝐝𝐞 𝐨𝐩𝐜𝐢𝐨𝐧𝐞𝐬 𝐩𝐚𝐫𝐚 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫:\n\n`;
 
   for (const [server, link] of Object.entries(links)) {
    // const shortLink = await acc(link); 
     messageText += `👨‍💻 *\`𝐒𝐞𝐫𝐯𝐢𝐝𝐨𝐫:\`* ${server}\n  🔗 *\`𝐋𝐢𝐧𝐤:\`* ${link}\n─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ─⭒─ׄ─ׄ─\n`;
   }
   messageText += `\n> Para descargar, usa el comando respectivo al servidor.\n`
-  messageText += `\n\`💨 Nota: Los links no siempre pueden funcionar si son muy viejos.\``;
+  messageText += `\n\`🐾Nota: Los links no siempre pueden funcionar si son muy viejos.\``;
   await conn.sendMessage(m.chat, { text: messageText }, { quoted: m });
 }
 
