@@ -17,7 +17,7 @@ global.confirmCode = ''
 global.owner = [
   ['5492612721386', 'KevinJs Creador', true],
   ['50558124470', 'Zahpkiel☆', true],
-  ['50230076791', 'FamiliaAddams', true],
+  ['50230076791', 'SHADOW Creador', true],
  ['595992809980'],
  ['595992667005'],
  ['5493834258985']
