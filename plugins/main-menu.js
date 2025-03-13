@@ -482,7 +482,6 @@ let handler = async (m, { conn, usedPrefix }) => {
       contextInfo: { mentionedJid: [m.sender], isForwarded: true, externalAdReply: {
         title: '🐕 ꙰ Coraje-BotLite-MD',
         body: dev,
-        thumbnailUrl: perfil,
         sourceUrl: redes,
         mediaType: 1,
         renderLargerThumbnail: false,
