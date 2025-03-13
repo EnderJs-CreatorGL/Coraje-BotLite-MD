@@ -15,7 +15,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
     let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/GtYw361/Yuki.jpg')
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-    let vid = ['https://qu.ax/Qysmj.mp4', 'https://qu.ax/Qysmj.mp4', 'https://qu.ax/Qysmj.mp4']
+    let vid = ['https://qu.ax/cPXkL.jpg', 'https://qu.ax/cPXkL.jpg', https://qu.ax/cPXkL.jpg']
     let randomVid = vid[Math.floor(Math.random() * vid.length)]
     let dev = 'Leonel'
     let redes = 'https://github.com/tu-repo'
