@@ -1,18 +1,34 @@
+import fs from 'fs'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
-import { promises as fs } from 'fs'
+const { levelling } = '../lib/levelling.js'
+import { promises } from 'fs'
 import { join } from 'path'
-
-let handler = async (m, { conn, usedPrefix }) => {
-  try {
-    let user = global.db.data.users[m.sender]
-    let { exp, dragones, level, role } = user
-    let { min, xp, max } = xpRange(level, global.multiplier)
-    let name = await conn.getName(m.sender)
-    let _uptime = process.uptime() * 1000
-    let uptime = clockString(_uptime)
-    let totalreg = Object.keys(global.db.data.users).length
-    let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
+let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, command }) => {
+try {        
+/*let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}*/
+let { exp, dragones, level, role } = global.db.data.users[m.sender]
+let { min, xp, max } = xpRange(level, global.multiplier)
+let name = await conn.getName(m.sender)
+let _uptime = process.uptime() * 1000
+let _muptime
+if (process.send) {
+process.send('uptime')
+_muptime = await new Promise(resolve => {
+process.once('message', resolve)
+setTimeout(resolve, 1000)
+}) * 1000
+}
+let user = global.db.data.users[m.sender]
+let muptime = clockString(_muptime)
+let uptime = clockString(_uptime)
+let totalreg = Object.keys(global.db.data.users).length
+let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/GtYw361/Yuki.jpg')
+let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
+const vid = ['https://qu.ax/Bjirw.mp4', 'https://qu.ax/Bjirw.mp4', 'https://qu.ax/Bjirw.mp4']
 
     
     let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯 𓏲꯭֟፝੭ ꯭  ꯭𔓕
@@ -477,37 +493,25 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃🜲 =>
 ┗━━━━━━━━━━━━━━━━━⪨
 > © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ☆꧁༒Ҡҽѵìղلʂ༒꧂☆`.trim()
-    await conn.sendMessage(m.chat, {
-      caption: menu,
-      contextInfo: { mentionedJid: [m.sender], isForwarded: true, externalAdReply: {
-        title: '🐕 ꙰ Coraje-BotLite-MD',
-        body: dev,
-        sourceUrl: redes,
-        mediaType: 1,
-        renderLargerThumbnail: false,
-      }},
-      gifPlayback: true,
-      gifAttribution: 0
-    })
+    await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: ☄️ *Coraje-Bot*', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
+}, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
+await m.react(emojis)    
 
-    await m.react('✅')
-
-  } catch (e) {
-    await m.reply(`✘ Ocurrió un error al enviar el menú\n\n${e}`)
-    await m.react('❌')
-  }
-}
+} catch (e) {
+await m.reply(`✘ Ocurrió un error al enviar el menú\n\n${e}`)
+await m.react(error)
+}}
 
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'help', 'menú', 'allmenú', 'allmenu', 'menucompleto']
+handler.command = ['menu', 'help', 'menú', 'allmenú', 'allmenu', 'menucompleto'] 
 handler.register = true
-
 export default handler
 
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
 function clockString(ms) {
-  let h = Math.floor(ms / 3600000)
-  let m = Math.floor(ms / 60000) % 60
-  let s = Math.floor(ms / 1000) % 60
-  return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
-}
+let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
