@@ -478,7 +478,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┗━━━━━━━━━━━━━━━━━⪨
 > © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ☆꧁༒Ҡҽѵìղلʂ༒꧂☆`.trim()
     await conn.sendMessage(m.chat, {
-      video: { url: randomVid },
       caption: menu,
       contextInfo: { mentionedJid: [m.sender], isForwarded: true, externalAdReply: {
         title: '🐕 ꙰ Coraje-BotLite-MD',
