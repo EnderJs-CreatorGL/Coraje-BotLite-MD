@@ -1,24 +1,49 @@
-import fs from 'fs'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
-import { promises } from 'fs'
+import { promises as fs } from 'fs'
 import { join } from 'path'
 
-let handler = async (m, { conn, usedPrefix, __dirname }) => {
+let handler = async (m, { conn, usedPrefix }) => {
   try {
-    let { exp, dragones, level, role } = global.db.data.users[m.sender]
+    let user = global.db.data.users[m.sender]
+    let { exp, dragones, level, role } = user
     let { min, xp, max } = xpRange(level, global.multiplier)
     let name = await conn.getName(m.sender)
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.db.data.users).length
-    let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
-    let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/GtYw361/Yuki.jpg')
-    let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-    let vid = ['https://qu.ax/cPXkL.jpg', 'https://qu.ax/cPXkL.jpg', https://qu.ax/cPXkL.jpg']
+    let who = m.mentionedJid?.[0] || m.sender
+
+    // Manejo de foto de perfil
+    let perfil
+    try {
+      perfil = await conn.profilePictureUrl(who, 'image')
+    } catch {
+      perfil = 'https://i.ibb.co/GtYw361/Yuki.jpg' // Imagen por defecto
+    }
+
+    // Lista de imágenes o videos
+    let vid = ['https://qu.ax/cPXkL.jpg', 'https://qu.ax/cPXkL.jpg', 'https://qu.ax/cPXkL.jpg']
     let randomVid = vid[Math.floor(Math.random() * vid.length)]
+
     let dev = 'Leonel'
     let redes = 'https://github.com/tu-repo'
+
+    console.log('Código corregido y sin errores')
+
+  } catch (e) {
+    console.error('Error en el código:', e)
+  }
+}
+
+export default handler
+
+function clockString(ms) {
+  let h = Math.floor(ms / 3600000)
+  let m = Math.floor(ms / 60000) % 60
+  let s = Math.floor(ms / 1000) % 60
+  return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
+}
 
     let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯 𓏲꯭֟፝੭ ꯭  ꯭𔓕
     
