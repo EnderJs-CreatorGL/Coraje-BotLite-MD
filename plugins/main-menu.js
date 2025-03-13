@@ -12,39 +12,9 @@ let handler = async (m, { conn, usedPrefix }) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.db.data.users).length
-    let who = m.mentionedJid?.[0] || m.sender
+    let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 
-    // Manejo de foto de perfil
-    let perfil
-    try {
-      perfil = await conn.profilePictureUrl(who, 'image')
-    } catch {
-      perfil = 'https://i.ibb.co/GtYw361/Yuki.jpg' // Imagen por defecto
-    }
-
-    // Lista de imágenes o videos
-    let vid = ['https://qu.ax/cPXkL.jpg', 'https://qu.ax/cPXkL.jpg', 'https://qu.ax/cPXkL.jpg']
-    let randomVid = vid[Math.floor(Math.random() * vid.length)]
-
-    let dev = 'Leonel'
-    let redes = 'https://github.com/tu-repo'
-
-    console.log('Código corregido y sin errores')
-
-  } catch (e) {
-    console.error('Error en el código:', e)
-  }
-}
-
-export default handler
-
-function clockString(ms) {
-  let h = Math.floor(ms / 3600000)
-  let m = Math.floor(ms / 60000) % 60
-  let s = Math.floor(ms / 1000) % 60
-  return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
-}
-
+    
     let menu = `𔓕꯭  ꯭ 𓏲꯭֟፝੭ 𝕮𝖔𝖗𝖆𝖏𝖊-𝕭𝖔𝖙𝕷𝖎𝖙𝖊-𝕸𝕯 𓏲꯭֟፝੭ ꯭  ꯭𔓕
     
 🐕 ¡𝐇𝐨𝐥𝐚! Humano 𝐂𝐨𝐦𝐨 𝐄𝐬𝐭𝐚𝐬 𝐄𝐥 𝐃𝐢𝐚 𝐃𝐞 𝐇𝐨𝐲 *${taguser}* 𝐒𝐨𝐲 Coraje  ${saludo}. 
